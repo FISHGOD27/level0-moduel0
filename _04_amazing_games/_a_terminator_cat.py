@@ -90,4 +90,4 @@ if __name__ == '__main__':
     window.onclick(screen_clicked)
     window.onkeypress(key_pressed, 'space')
     window.listen()
-    turtle.done()
+    turtle
