@@ -46,10 +46,13 @@ if __name__ == '__main__':
     #    add the file to the folder with your code
 
     # 2. Call the set_background() function with the image filename inside of the parenthesis
-    set_background('emoji.png')
-
+    set_background('FlamingNinjaStar.png')
     # 3. Create a variable called moustache and set it equal to add_moustache('moustache1.gif')
     # moustache = add_moustache('moustache1.gif')
+    moustache = add_moustache('moustache1.gif')
+    moustache.showturtle()
+    moustache.goto(x=0,y=-30)
+
 
     # ===================== DO NOT EDIT THE CODE BELOW ============================
     window.onclick(screen_clicked)

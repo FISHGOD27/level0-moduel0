@@ -12,7 +12,7 @@ if __name__ == '__main__':
     # Set your turtle's speed using .speed(2)
     a.speed(2)
     # Set your turtle's color using .color('green') and .pencolor('blue')
-    a.color('green')
+    a.color('blue')
     a.pencolor('blue')
     # Move your turtle forward using .forward(100)
 
@@ -29,11 +29,6 @@ if __name__ == '__main__':
     # x=0 and y=0 is the center of the screen
 
     # Have your turtle draw a circle using .circle(radius, steps=30)
-    a.circle(radius=50, steps=30)
-      a.forward(25)
-      for i in range(4):
-    a.left(90)
-    a.forward(70)
 
 
     # TEST    Did your turtle draw a circle?

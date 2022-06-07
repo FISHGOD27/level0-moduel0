@@ -21,7 +21,13 @@ if __name__ == '__main__':
     colors = ('red', 'blue', 'green', 'yellow', 'orange')
     
     # Make a new turtle
-    
+    import turtle
+
+if __name__ == '__main__':
+    window = turtle.Screen()
+    window.bgcolor('white')
+
+    a=turtle.Turtle
     # Make the turtle shape 'turtle', .shape('turtle')
     
     # Set the turtle speed to max (0)
