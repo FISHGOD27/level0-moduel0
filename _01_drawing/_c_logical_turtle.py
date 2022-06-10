@@ -22,14 +22,11 @@ def turtle_clicked(x=0, y=0):
 
         # 9. Make the turtle spin 360 degrees using the .right() method
     a.penup()
-    a.forward(600)
     for i in range(300):
         a.color(get_random_color())
-        a.right(360)
         a.color(get_random_color())
         a.color(get_random_color())
         a.color(get_random_color())
-        a.back(1200)
         a.color(get_random_color())
         a.color(get_random_color())
         a.color(get_random_color())
@@ -541,7 +538,6 @@ if __name__ == '__main__':
     
     # 1. Make a new turtle
     a=turtle.Turtle()
-    b=turtle.turtle
     # 2. Make your turtle's shape 'turtle', .shape('turtle')
     a.shape('turtle')
     # 3. Set your turtle's color using .color('green') and .pencolor('blue')
